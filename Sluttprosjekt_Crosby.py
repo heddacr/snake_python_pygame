@@ -72,7 +72,7 @@ class Slange:
       self.kollisjon = True
     lengde_slange = len(self.koordinater)
     if lengde_slange > 1:
-      for i in range(1, lengde_slange-1): 
+      for i in range(1, lengde_slange): 
         if (slangehode == self.koordinater[i]):
           self.kollisjon = True
 
